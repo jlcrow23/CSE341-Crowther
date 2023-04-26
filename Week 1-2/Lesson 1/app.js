@@ -2,6 +2,23 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const MongoClient = require('mongodb').MongoClient;
 const mongodb = require('./db/connect');
+
+async function main() {
+  const uri = 'mongodb+srv://crowtherdb:Db12345%21@cluster0.dozth36.mongodb.net/test';
+
+  const client = new MongoClient(uri);
+
+  try {
+    await client.connect();
+  } catch (e) {
+    console.error(e);
+  } finally {
+    await client.close();
+  }
+}
+
+main().catch(console.error);
+
 const professionalRoutes = require('./routes/professional');
 
 const port = process.env.PORT || 8080;
