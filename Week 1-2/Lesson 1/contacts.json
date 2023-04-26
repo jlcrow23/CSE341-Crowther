@@ -1,0 +1,23 @@
+{
+  "contact": {
+    "firstname": "Wayne",
+    "lastName": "Crowther",
+    "email": "wcrow@email.com",
+    "favoriteColor": "blue",
+    "birthday": "October 22, 1976"
+  },
+  "contact2": {
+    "firstname": "Kenadhe",
+    "lastName": "Elordi",
+    "email": "Kelo@email.com",
+    "favoriteColor": "pink",
+    "birthday": "November 06, 2003"
+  },
+  "contact3": {
+    "firstname": "Atcheson",
+    "lastName": "Elordi",
+    "email": "Aelo@email.com",
+    "favoriteColor": "red",
+    "birthday": "November 17, 2005"
+  }
+}
